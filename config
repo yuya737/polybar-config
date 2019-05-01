@@ -55,9 +55,10 @@ module-margin-right = 2
 font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
-font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=8;1"
-font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=8;1"
-font-5 = "Font Awesome 5 Brands:pixelsize=8;1"
+font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=9;1"
+font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=9;1"
+font-5 = "Font Awesome 5 Brands:pixelsize=9;1"
+font-6 = Noto Sans CJK JP:pixelsize=9;2
 
 modules-left = i3
 modules-center =   
