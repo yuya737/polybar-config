@@ -61,7 +61,7 @@ font-5 = "Font Awesome 5 Brands:pixelsize=8;1"
 
 modules-left = i3
 modules-center =   
-modules-right = pulseaudio filesystem network memory cpu battery temperature date 
+modules-right = pulseaudio spotify filesystem network memory cpu battery temperature date 
 
 tray-position = right
 tray-padding = 2
@@ -105,6 +105,14 @@ label-connected-foreground = #eefafafa
 label-disconnected = 
 label-disconnected-foreground = #66ffffff
 
+
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = " "
+format = <label>
+exec = python ~/Documents/spotify_status.py -p ',' -f  '{artist} - {song}' 
+format-underline = #1db954
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -360,7 +368,7 @@ label-connected = %essid%  %downspeed:%  %upspeed:%
 label-connected-foreground = #eefafafa
 
 ; Default: (none)
-label-disconnected = not connected
+label-disconnected = Not Connected
 label-disconnected-foreground = #66ffffff
 
 
