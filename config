@@ -37,6 +37,7 @@ height = 20
 radius = 0.0
 fixed-center = false
 
+
 background = ${colors.background}
 foreground = ${colors.foreground}
 
@@ -62,16 +63,21 @@ font-6 = Noto Sans CJK JP:pixelsize=9;2
 
 modules-left = i3
 modules-center =   
-modules-right = pulseaudio spotify filesystem network memory cpu battery temperature date 
+modules-right =  pulseaudio filesystem network memory cpu battery temperature date 
 
 tray-position = right
 tray-padding = 2
+
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
 ;wm-restack = i3
 
+
 override-redirect = false
+tray-reparent = true
+
+;wm-restack = i3
 enable-ipc = true
 
 ;scroll-up = bspwm-desknext
@@ -402,7 +408,7 @@ format-disconnected =
 type = internal/date
 interval = 1
 
-date = " %Y-%m-%d"
+date = "%A %Y-%m-%d"
 date-alt = " %Y-%m-%d"
 
 time = %H:%M:%S
