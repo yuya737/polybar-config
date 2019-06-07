@@ -63,7 +63,7 @@ font-6 = Noto Sans CJK JP:pixelsize=9;2
 
 modules-left = i3
 modules-center =   
-modules-right =  pulseaudio filesystem network memory cpu battery temperature date 
+modules-right = pulseaudio filesystem network memory cpu battery temperature date 
 
 tray-position = right
 tray-padding = 2
@@ -254,7 +254,7 @@ label-song-ellipsis = true
 
 [module/xbacklight]
 type = internal/xbacklight
-output = eDP1
+output = eDP-1
 
 ; Available tags:
 ;   <label> (default)
