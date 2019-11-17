@@ -229,7 +229,7 @@ label-urgent-padding = ${module/bspwm.label-urgent-padding}
 label-separator = |
 
 ws-icon-0 = 1;Terminal 
-ws-icon-1 = 2;Firefox 
+ws-icon-1 = 2;Firefox  
 ws-icon-2 = 3;
 ws-icon-3 = 4;
 ws-icon-4 = 5;Rambox 
@@ -452,7 +452,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 type = internal/battery
 battery = BAT0
 adapter = AC
-full-at = 98
+full-at = 95
 
 format-charging = <animation-charging> <label-charging>
 format-charging-underline = #ffb52a
